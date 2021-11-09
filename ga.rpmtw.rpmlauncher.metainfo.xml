@@ -25,10 +25,11 @@
     </screenshots>
 
     <releases>
-        <release date="2021-10-30" version="1.0.0.665" />
+        <release version="1.0.0+726" date="2021-11-08"/>
+        <release date="2021-10-30" version="1.0.0.665"/>
     </releases>
 
     <launchable type="desktop-id">ga.rpmtw.rpmlauncher.desktop</launchable>
-    <content_rating type="oars-1.1" />
+    <content_rating type="oars-1.1"/>
 
 </component>
