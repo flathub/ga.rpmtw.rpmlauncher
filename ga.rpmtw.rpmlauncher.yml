@@ -1,6 +1,6 @@
 app-id: ga.rpmtw.rpmlauncher
 runtime: org.freedesktop.Platform
-runtime-version: "21.08"
+runtime-version: '21.08'
 sdk: org.freedesktop.Sdk
 command: run.sh
 finish-args:
@@ -29,14 +29,15 @@ modules:
       - install -Dm755 -t /app/bin/ run.sh
     sources:
       - type: archive
-        url: https://github.com/RPMTW/RPMLauncher/releases/download/1.0.0+724/RPMLauncher-Linux.zip
+        url: https://github.com/RPMTW/RPMLauncher/releases/download/1.0.0+726/RPMLauncher-Linux.zip
         dest: rpmlauncher
-        sha256: cf3bd3bb477ed4bcea61b1a0b3b7554a887034f4887cd03d979a0a4d8f9acb2e
+        sha256: 8102d4867a47ac631e307946a1a07fb751c50d4bfc617affd01cfd58fa3b838e
         x-checker-data:
           type: json
           url: https://api.github.com/repos/RPMTW/RPMLauncher/tags?per_page=1
           version-query: .[0].name
-          url-query: '"https://github.com/RPMTW/RPMLauncher/releases/download/" + $version + "/RPMLauncher-Linux.zip"'
+          url-query: '"https://github.com/RPMTW/RPMLauncher/releases/download/" +
+            $version + "/RPMLauncher-Linux.zip"'
       - type: file
         path: ga.rpmtw.rpmlauncher.desktop
       - type: file
