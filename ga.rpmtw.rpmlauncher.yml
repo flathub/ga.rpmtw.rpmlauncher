@@ -16,7 +16,7 @@ finish-args:
   # device access
   - --device=dri
   # Needs to detect the network connection status
-  --system-talk-name=org.freedesktop.NetworkManager
+  - --system-talk-name=org.freedesktop.NetworkManager
 modules:
   - name: RPMLauncher
     buildsystem: simple
