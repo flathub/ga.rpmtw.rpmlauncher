@@ -12,11 +12,11 @@ finish-args:
   # Needs to talk to the network:
   - --share=network
   # Needs to save config/data files
-  - --persist=RPMLauncher
+  - --filesystem=~/RPMLauncher:create
   # device access
   - --device=dri
   # Needs to detect the network connection status
-  - --system-talk-name=org.freedesktop.NetworkManager
+  - --talk-name=org.freedesktop.NetworkManager
 modules:
   - name: RPMLauncher
     buildsystem: simple
