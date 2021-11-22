@@ -13,6 +13,8 @@ finish-args:
   - --share=network
   # Needs to save config/data files
   - --filesystem=~/RPMLauncher:create
+  # Minecraft sound
+  - --socket=pulseaudio
   # device access
   - --device=dri
   # Needs to detect the network connection status
