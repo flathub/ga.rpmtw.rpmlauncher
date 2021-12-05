@@ -33,9 +33,9 @@ modules:
       - install -Dm755 -t /app/bin/ run.sh
     sources:
       - type: archive
-        url: https://github.com/RPMTW/RPMLauncher/releases/download/1.0.3+802/RPMLauncher-Linux.zip
+        url: https://github.com/RPMTW/RPMLauncher/releases/download/1.0.3+804/RPMLauncher-Linux.zip
         dest: rpmlauncher
-        sha256: cae3f81500e25cc99b59be41481c9fe8240e551373cb5347bd810ff6a3505402
+        sha256: c3bd3766b6b679c2308224ac1dbb60a826781991d356c59c770f71b2120687c7
         x-checker-data:
           type: json
           url: https://api.github.com/repos/RPMTW/RPMLauncher/tags?per_page=1
