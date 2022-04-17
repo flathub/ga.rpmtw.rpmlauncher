@@ -4,7 +4,9 @@
 
     <name>RPMLauncher</name>
     <summary>A better Minecraft Launcher that supports multiple platforms and many functionalities for you to explore!</summary>
-    <developer_name>siongsng</developer_name>
+    <summary xml:lang="zh_CN">次世代的我的世界启动器，既保留简洁设计、支援多个平台和许多功能供您探索！</summary> 
+    <summary xml:lang="zh_TW">次世代的 Minecraft 啟動器，既保留簡潔設計、支援多個平台和許多功能供您探索！</summary> 
+    <developer_name>The RPMTW Team</developer_name>
 
     <metadata_license>CC0-1.0</metadata_license>
     <project_license>GPL-3.0</project_license>
